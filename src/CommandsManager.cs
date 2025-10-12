@@ -64,7 +64,6 @@ public class CommandsManager
                     );
 
                     player.SendMessage(MessageType.Chat, _config.Prefix);
-                    Console.WriteLine(_config.Prefix);
                 }
             );
         }
