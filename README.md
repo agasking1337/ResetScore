@@ -15,9 +15,6 @@
 
 A SwiftlyS2 plugin that lets you reset your scoreboard stats.
 
-## Installation
-
-
 ## Configuration
 
 After you start the plugin once, the configuration file will be generated inside `addons/swiftlys2/configs/plugins/resources/config.jsonc`.
