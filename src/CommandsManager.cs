@@ -27,7 +27,7 @@ public class CommandsManager
         {
             _core.Command.RegisterCommand(
                 command,
-                async (ICommandContext ctx) =>
+                (ICommandContext ctx) =>
                 {
                     IPlayer? player = ctx.Sender;
                     if (player == null)
